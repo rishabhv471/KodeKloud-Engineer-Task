@@ -1,0 +1,10 @@
+Question 
+Create a group in all app server with in data center with name as "nautilus_noc" and user as "kano".
+
+Answer
+sudo groupadd nautilus_noc
+sudo useradd -g nautilus_noc kano
+
+To check user and group is created 
+
+id kano
