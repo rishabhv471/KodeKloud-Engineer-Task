@@ -1,2 +1,9 @@
 Q - Create a user named jim in app server 3 with no home directory
 A - sudo useradd -M jim
+
+To check user name exist or not 
+id jim
+
+To check whether jim got the home directory
+grep '^jim:' /etc/passwd
+
