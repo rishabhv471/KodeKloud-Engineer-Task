@@ -1,0 +1,2 @@
+Q - Create a user named jim in app server 3 with no home directory
+A - sudo useradd -M jim
